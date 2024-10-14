@@ -3,9 +3,9 @@ import imghdr
 from email.message import EmailMessage
 
 
-PASSWORD = "efipmfgofdonknis"
-SENDER = "yashvimodi80@gmail.com"
-RECEIVER = "yashvimodi80@gmail.com"
+PASSWORD = "<PASSWORD>"
+SENDER = "<SENDER'S EMAIL>"
+RECEIVER = "<RECEIVER's EMAIL>"
 
 def send_email(image_path):
     email_message = EmailMessage()
